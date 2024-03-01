@@ -7,8 +7,7 @@ public class Largestnumber{
 		Scanner cs=new Scanner (System.in);
 		System.out.println("enter first number");
 		int num1=cs.nextInt();
-		System.out.println("enter second" + 
-		"number"); 
+		System.out.println("enter second number"); 
 		int num2=cs.nextInt();
 		System.out.println("enter third number");
 		int num3=cs.nextInt();
