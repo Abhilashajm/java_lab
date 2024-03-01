@@ -15,17 +15,18 @@ public class Largestnumber{
 		int largest;
 		if (num1>num2)
 		{
-		         	if (num1>num3)
+			if (num1>num3)
 		         	largest=num1;
-		         	else
+			else
 		         	largest=num3;
-		         	}
-		         	else {
-		         		if (num2>num3)
-		         		largest=num2;
-		         		else
-		         		largest=num3;
-		         	}
-		         		System.out.println("the" +"  largest number is "+largest);
+		}
+		else {
+			if (num2>num3)
+				largest=num2;
+			else
+				largest=num3;
+		}
+		System.out.println("the" +"  largest number is "+largest);
 	}
 }
+			
