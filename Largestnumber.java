@@ -25,7 +25,7 @@ public class Largestnumber{
 			else
 				largest=num3;
 		}
-		System.out.println("the" +"  largest number is "+largest);
+		System.out.println("the largest number is "+largest);
 	}
 }
 			
