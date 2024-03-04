@@ -20,10 +20,8 @@ public class DuplicateinArray {
 			}
 		}	
 	       if (isDuplicate)
-			System.out.println("array conatains" + 
-			                   "duplicate elements at " + 
-			                   " position " + (i+1) + " and"
-			                   + "+ " at " +  (j+1));
+			System.out.println("array conatains duplicate elements at " + 
+					   " position " + (i+1) + " a + "+ " at " +  (j+1));
 		else
 			System.out.println("array doesn't contains duplicate elements ");
 	}
