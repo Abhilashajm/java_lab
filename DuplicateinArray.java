@@ -3,8 +3,8 @@ public class DuplicateinArray {
 	public static void main(String[] args) {
 		int array[] = new int[10]; boolean isDuplicate=false;
 		Scanner inScanner= new Scanner (System.in);
-		System.out.println("enter array size"); int size=
-             inScanner.nextInt();    
+		System.out.println("enter array size"); 
+		int size=inScanner.nextInt();    
 		System.out.println("enter elements one by one");
 		for (int i=0; i<size; i++) 
 			array[i]= inScanner.nextInt();
